@@ -19,3 +19,9 @@ class WoodenDoor implements Door {
     return this.height;
   }
 }
+
+class DoorFactory {
+  static makeDoor() {
+    
+  }
+}
