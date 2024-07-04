@@ -21,7 +21,12 @@ class WoodenDoor implements Door {
 }
 
 class DoorFactory {
-  static makeDoor() {
-    
+  static makeDoor(width, height): Door {
+    return new WoodenDoor(width, height);
   }
 }
+
+let door = DoorFactory.makeDoor(10, 20);
+
+console.log(door.getHeight());
+console.log(door.getHeight());
