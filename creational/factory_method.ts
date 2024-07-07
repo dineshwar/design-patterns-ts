@@ -1,1 +1,3 @@
-# Start
+interface Interviewer {
+  askQuestions(): string;
+}
