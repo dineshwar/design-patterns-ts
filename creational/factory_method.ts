@@ -4,6 +4,12 @@ interface Interviewer {
 
 class Developer implements Interviewer {
   askQuestions() {
-    return "";
+    return "Asking about design patterns!";
+  }
+}
+
+class CommunityExecutive implements Interviewer {
+  askQuestions() {
+    return "Asking about community building";
   }
 }
